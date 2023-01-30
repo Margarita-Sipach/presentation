@@ -1,0 +1,76 @@
+.svg{
+	height: 60px;
+	position: absolute;
+}
+
+.svg:nth-of-type(1){
+	left: 50px;
+	top: 0;
+}
+
+.svg:nth-of-type(2){
+	left: -50px;
+	top: 50%;
+}
+
+.svg:nth-of-type(3){
+	left: 50px;
+	top: 100%;
+}
+
+.svg:nth-of-type(4){
+	right: 50px;
+	top: 0;
+}
+
+.svg:nth-of-type(5){
+	right: -50px;
+	top: 50%;
+}
+
+.svg:nth-of-type(6){
+	right: 50px;
+	top: 100%;
+}
+
+.edit{
+	height: 160px;
+}
+
+#Girl
+{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    transform-box: fill-box;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+}
+
+@keyframes swing {
+    0% { transform: rotate(9deg); }
+    100% { transform: rotate(-9deg); }
+}
+
+
+#Vector_38
+{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center 0px;
+    transform-box: fill-box;
+    float:left;
+}
+
+.figure{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.figure img{
+	width: 75%;
+}
+
+.figure svg{
+	width: 20%;
+}
